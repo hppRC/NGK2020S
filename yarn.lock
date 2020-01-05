@@ -13900,7 +13900,7 @@ webpack@^4.41.2, webpack@~4.41.2:
     watchpack "^1.6.0"
     webpack-sources "^1.4.1"
 
-website-pdf@^3.0.8:
+website-pdf@3.0.8:
   version "3.0.8"
   resolved "https://registry.yarnpkg.com/website-pdf/-/website-pdf-3.0.8.tgz#3b455636876d039f0e1df8e8563c84031da08113"
   integrity sha512-gzYZ2+s0qgcJwx9pIpQP23UU4Xel66IVsfnz6AgEaemrEgLU7T4WARDFjzMae3wwPpK/SAV3i68ylxPZPVlJJQ==
