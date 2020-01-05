@@ -1,5 +1,7 @@
 # NGK2020S
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6e84bb3b-1201-4e33-9af9-96b0246addcb/deploy-status)](https://app.netlify.com/sites/silly-neumann-4bafa7/deploys)
+
 LT 登壇用の資料
 
 mdx-deck でスライドを作りつつ、Gatsby で公開してみる
