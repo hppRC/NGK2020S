@@ -14,6 +14,14 @@ module.exports = {
     ...config
   },
   plugins: [
+    {
+      resolve: `gatsby-theme-mdx-deck`,
+      options: {
+        mdx: false,
+        contentPath: 'decks',
+        basePath: ''
+      }
+    },
     `gatsby-plugin-root-import`,
     `gatsby-plugin-typescript`,
     `gatsby-plugin-emotion`,

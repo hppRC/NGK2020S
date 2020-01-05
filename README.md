@@ -1,31 +1,16 @@
-# gatsby-starter-hpp
+# NGK2020S
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/bbee222e-f232-452e-b6ba-d58f6c1af937/deploy-status)](https://app.netlify.com/sites/gatsby-starter-hpp/deploys)
+LT 登壇用の資料
 
-simplest gatsby skelton.
+mdx-deck でスライドを作りつつ、Gatsby で公開してみる
 
-## Recomendation
+ライブラリが非常に buggy なので苦労する。
 
-- node.js  
-   `version: 13.5.0`
-- yarn  
-   `version: 21.1.0`
-
-## Get Started
-
-1. install node modules
+## PDF export
 
 ```
-$ yarn
+npx website-pdf http://localhost:8000/hello/print -o output.pdf
 ```
 
-2. start development server
-
-```
-$ yarn start
-```
-
-thanks to:  
-[https://qiita.com/Takepepe](https://qiita.com/Takepepe/items/144209f860fbe4d5e9bb)  
-[https://www.lekoarts.de/](https://www.lekoarts.de/)  
-[LekoArts/gatsby-themes](https://github.com/LekoArts/gatsby-themes)
+信じられないが dummy のファイルが decks ディレクトリに無いとうまく動かない。信じられない。  
+path/to/print を export することでスライドの全ページが出力される。あとは適当に keynote に置けばスライド資料にできる。
