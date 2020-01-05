@@ -2,7 +2,7 @@ const config = {
   siteTitle: `NGK2020S hppRC`,
   siteTitleAlt: `slides for Lightnign Talk- @hppRC/NGK2020S`,
   siteHeadline: `slides for Lightnign Talk - NGK2020S slides from @hppRC`,
-  siteUrl: `https://NGK2020S.hpprc.com`,
+  siteUrl: `https://ngk2020s.hpprc.com`,
   siteDescription: `slides for NGK2020S with Gatsby and mdx-deck`,
   siteLanguage: `ja`,
   author: `@osaremochi`, // twitter account id
