@@ -3,27 +3,14 @@ import React from 'react';
 
 import styled from '@emotion/styled';
 
-import { StyledModeButton as ModeButton } from './mode-button';
-
 const Header: React.FCX = ({ className }) => (
   <header className={className}>
-    <h1>Gatsby starter hpp</h1>
+    <h1>NGK2020S</h1>
+
     <nav>
       <ul>
         <li>
-          <Link to='/'>Top</Link>
-        </li>
-        <li>
-          <Link to='/about'>About</Link>
-        </li>
-        <li>
           <Link to='/contact'>Contact</Link>
-        </li>
-        <li>
-          <Link to='/404'>404</Link>
-        </li>
-        <li>
-          <ModeButton />
         </li>
       </ul>
     </nav>

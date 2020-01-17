@@ -10,9 +10,7 @@ const config = {
 };
 
 module.exports = {
-  siteMetadata: {
-    ...config
-  },
+  siteMetadata: config,
   plugins: [
     {
       resolve: `gatsby-theme-mdx-deck`,
@@ -81,7 +79,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // replace "UA-XXXXXXXXX-X" with your own Tracking ID
-        trackingId: `UA-149661454-1`
+        trackingId: `UA-149661454-4`
       }
     },
     // gatsby-plugin-manifest should be described before gatsby-plugin-offline
