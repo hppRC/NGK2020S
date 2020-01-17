@@ -4,7 +4,7 @@ import styled from '@emotion/styled';
 
 const Footer: React.FCX = ({ className }) => (
   <footer className={className}>
-    Copyright © 2019 hppRC All Rights Reserved.
+    Copyright © 2019 <a href='https://github.com/hppRC'>hppRC</a>
   </footer>
 );
 
@@ -22,6 +22,12 @@ export const StyledFooter = styled(Footer)`
   color: #ffffff;
 
   z-index: 1000;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 0.5rem;
+  }
 `;
 
 export default StyledFooter;

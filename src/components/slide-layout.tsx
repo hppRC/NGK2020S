@@ -7,6 +7,7 @@ const SlideLayout: React.FCX = ({ className, children }) => {
 };
 
 export const StyledSlideLayout = styled(SlideLayout)`
+  position: relative;
   display: flex;
 
   justify-content: space-between;
