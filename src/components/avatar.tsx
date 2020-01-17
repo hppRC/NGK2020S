@@ -10,17 +10,17 @@ const Avatar: React.FCX = ({ className }) => {
 };
 
 export const StyledAvatar = styled(Avatar)`
-  position: absolute;
-  top: 0;
-  right: 0;
+  position: absolute !important;
+  top: 10rem;
+  left: 20rem;
   width: 30rem;
   height: 30rem;
+  border-radius: 15rem;
+
   img,
   picture {
-    width: 30rem;
-    height: 30rem;
   }
-  z-index: 1000;
+
   @media screen and (max-width: 1100px) {
   }
   @media screen and (max-width: 768px) {

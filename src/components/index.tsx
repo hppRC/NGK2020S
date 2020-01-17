@@ -7,3 +7,4 @@ export * from './form';
 export * from './slide-layout';
 export * from './theme';
 export * from './avatar';
+export * from './moon';
