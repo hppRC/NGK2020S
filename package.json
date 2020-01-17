@@ -11,7 +11,8 @@
     "format": "prettier --write src/**/*.{js,jsx,tsx}",
     "start": "yarn develop",
     "serve": "gatsby serve",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "mdx": "mdx-deck ./decks/slides.mdx"
   },
   "dependencies": {
     "@babel/core": "^7.7.4",
@@ -50,10 +51,11 @@
     "gatsby-theme-mdx-deck": "^3.0.13",
     "gatsby-transformer-sharp": "^2.3.6",
     "graphql": "^14.5.8",
+    "mdx-deck": "^3.0.13",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
-    "typescript": "^3.7.2",
+    "typescript": "^3.8.0-beta",
     "unstated-next": "^1.1.0",
     "webpack": "^4.41.2"
   },
