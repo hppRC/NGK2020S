@@ -1,12 +1,13 @@
-import { syntaxHighlighterPrism } from 'mdx-deck/themes'
-
 import {
     StyledAvatar as Avatar,
     StyledGraphQLSample as GraphQLSample,
     StyledMoon as Moon,
     theme as Theme,
+    StyledImage as Image,
     StyledSlideLayout as Layout
 } from 'src/components';
+import React from "src/images/react.png"
+import GenerativeReact from "src/images/generative-react.png"
 
 export const theme = Theme;
 
@@ -14,7 +15,7 @@ export const theme = Theme;
 <Layout>
 
 
-# JAMStack と Gatsby.js
+# Gatsby.js布教計画
 
 [NGK2020S](https://ngk2020s.netlify.com/)  
 [hpp(@osaremochi)](https://github.com/hppRC)
@@ -23,6 +24,8 @@ export const theme = Theme;
 
 ---
 
+<Avatar />
+<Moon />
 
 <Layout>
 
@@ -31,15 +34,27 @@ export const theme = Theme;
 # hpp
 ## 名古屋大学情報学部コンピュータ科学科 3 年
 
+- GitHub: [hppRC](https://github.com/hppRC)
+- Qiita: [hppRC](https://qiita.com/hppRC)
+- Twitter: [@osaremochi](https://twitter.com/osaremochi)
+
+</Layout>
+
+---
+
+<Avatar />
+<Moon />
+
+<Layout>
+
+# だれ？
+
 - 趣味で React とか Go とか Rust とか
 - 学生実験でコンパイラを書いたり
 - AtCoder 水(1269)
 - Gatsby.js Maintainer
 
 </Layout>
-
-<Avatar />
-<Moon />
 
 ---
 
@@ -65,6 +80,7 @@ export const theme = Theme;
 
 # JAMStack って?
 
+## Netlify の創業者が提唱した
 ## 新しいアーキテクチャ
 
 - JavaScript
@@ -79,9 +95,6 @@ export const theme = Theme;
 
 # JAMStackとは
 
-## Netlify の創業者が提唱したもの
-
-<br />
 
 よくある「動的」な処理を外部に移した静的な Web サイトの構成<br />
 
@@ -196,10 +209,11 @@ export const theme = Theme;
 
 ## 静的サイトホスティングサービスは大量に存在する
 
-- <b>Netlify</b>
+- <b>Netlify</b>(おすすめ)
 - GitHub Pages
 - firebase hosting
 - S3
+...
 
 多くは無料
 
@@ -211,7 +225,9 @@ export const theme = Theme;
 
 ## うまい?
 
-## 色々な技術に触れることができ美味しい
+## 色々な技術に触れることができる
+
+# → 美味しい
 
 </Layout>
 
@@ -221,7 +237,7 @@ export const theme = Theme;
 ## うまい?
 
 - データを取得する操作はGraphQLで統一
-- 内部の状態管理にReduxを利用
+- 内部の状態管理にReduxを利用(外からは意識しない)
 - mdx, Server Side Renderingの考え方
 
 
@@ -250,3 +266,72 @@ export const theme = Theme;
 
 ---
 
+<Layout>
+
+# とっても簡単
+
+## React初心者にも上級者にもオススメです
+
+</Layout>
+
+---
+
+<Layout>
+
+# どんなものが作れるの?
+
+</Layout>
+
+---
+
+<Image src={React} />
+
+# React公式サイト
+
+---
+
+<Image src={GenerativeReact} />
+
+# クリエイティブコーディングで遊ぶ
+## WebGLやp5.jsで作る作品置き場
+
+[https://github.com/hppRC/generativereact](https://github.com/hppRC/generativereact)
+
+---
+
+<Layout>
+
+# このスライド
+
+## MDXで書いてGatsbyでビルド、Netlifyにデプロイしています
+
+</Layout>
+
+---
+
+<Layout>
+
+# [ngk2020s.hpprc.com](https://ngk2020s.hpprc.com/)
+
+</Layout>
+
+---
+
+# Contactから感想を送っていただけると嬉しいです
+
+---
+
+<Layout>
+
+# ありがとうございました！！！
+
+</Layout>
+
+---
+
+## 参考資料
+
+- [JAMstackってなに？実践に学ぶ高速表示を実現するアーキテクチャの構成](https://employment.en-japan.com/engineerhub/entry/2019/12/10/103000)
+- [React.js](https://ja.reactjs.org/)
+- [Gatsby.js](https://www.gatsbyjs.org/)
+- [MDX-DeckとCode Surferでスライドを作ろう！](https://takumon.github.io/mdx-deck-sample/)

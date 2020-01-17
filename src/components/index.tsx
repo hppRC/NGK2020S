@@ -9,3 +9,4 @@ export * from './theme';
 export * from './avatar';
 export * from './moon';
 export * from './graphql-sample';
+export * from './image';
