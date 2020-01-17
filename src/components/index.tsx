@@ -8,3 +8,4 @@ export * from './slide-layout';
 export * from './theme';
 export * from './avatar';
 export * from './moon';
+export * from './graphql-sample';

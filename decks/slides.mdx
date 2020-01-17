@@ -1,4 +1,12 @@
-import { StyledAvatar as Avatar, StyledMoon as Moon, theme as Theme, StyledSlideLayout as Layout } from 'src/components';
+import { syntaxHighlighterPrism } from 'mdx-deck/themes'
+
+import {
+    StyledAvatar as Avatar,
+    StyledGraphQLSample as GraphQLSample,
+    StyledMoon as Moon,
+    theme as Theme,
+    StyledSlideLayout as Layout
+} from 'src/components';
 
 export const theme = Theme;
 
@@ -20,6 +28,7 @@ export const theme = Theme;
 
 # だれ？
 
+# hpp
 ## 名古屋大学情報学部コンピュータ科学科 3 年
 
 - 趣味で React とか Go とか Rust とか
@@ -56,6 +65,8 @@ export const theme = Theme;
 
 # JAMStack って?
 
+## 新しいアーキテクチャ
+
 - JavaScript
 - APIs
 - Markdown
@@ -66,13 +77,15 @@ export const theme = Theme;
 
 <Layout>
 
-# 新しいアーキテクチャ
+# JAMStackとは
 
 ## Netlify の創業者が提唱したもの
 
 <br />
 
 よくある「動的」な処理を外部に移した静的な Web サイトの構成<br />
+
+## サーバに依存しないフロントエンドの技術構成
 
 </Layout>
 
@@ -85,6 +98,15 @@ export const theme = Theme;
 - headless CMS
 - markdown からブログ記事をビルド
 - 各種SaaS (Algolia とか firebase とか)
+- あとはホスティングサービスに置くだけ
+
+</Layout>
+
+---
+
+<Layout>
+
+# なるほど
 
 </Layout>
 
@@ -107,6 +129,16 @@ export const theme = Theme;
 
 # Gatsbyは何がいいの？
 
+## 　　
+
+</Layout>
+
+---
+
+<Layout>
+
+# Gatsbyは何がいいの？
+
 ## 早い・安い・うまい(?)
 
 </Layout>
@@ -115,7 +147,106 @@ export const theme = Theme;
 
 <Layout>
 
+## 早い?
+
+# エコシステムが整っている
 
 </Layout>
 
 ---
+
+<Layout>
+
+## 早い?
+
+- starter(Pull Requestで誰でも追加できる)
+- theme(Wordpressにあるような機能)
+- 静的サイトならではのデプロイの簡単さ
+
+</Layout>
+
+---
+
+<Layout>
+
+## 安い?
+
+# ランニングコストが安い！
+
+</Layout>
+
+---
+
+<Layout>
+
+## 安い?
+
+## Gatsby製のサイトは静的なReactアプリケーション
+
+- 動的なデータ取得はビルド時に終わっている
+- つまりサーバ不要、静的ファイルを置くだけでサイトになる
+- もちろんクライアントサイドでのデータ取得もできる
+
+</Layout>
+
+---
+<Layout>
+
+## 安い?
+
+## 静的サイトホスティングサービスは大量に存在する
+
+- <b>Netlify</b>
+- GitHub Pages
+- firebase hosting
+- S3
+
+多くは無料
+
+</Layout>
+
+---
+
+<Layout>
+
+## うまい?
+
+## 色々な技術に触れることができ美味しい
+
+</Layout>
+
+---
+<Layout>
+
+## うまい?
+
+- データを取得する操作はGraphQLで統一
+- 内部の状態管理にReduxを利用
+- mdx, Server Side Renderingの考え方
+
+
+</Layout>
+
+---
+
+<Layout>
+
+## GraphQLとか難しそう...
+
+</Layout>
+
+---
+<Layout>
+
+## GraphQLとか難しそう...
+
+# 大丈夫です
+
+</Layout>
+
+---
+
+<GraphQLSample />
+
+---
+
