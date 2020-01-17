@@ -7,8 +7,26 @@ const SlideLayout: React.FCX = ({ className, children }) => {
 };
 
 export const StyledSlideLayout = styled(SlideLayout)`
-  color: #ffffff;
-  background-color: #09090f;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  h1 {
+    padding: 2rem 4rem 6rem 4rem;
+    font-size: 14rem;
+  }
+  h2 {
+    padding: 2rem 4rem 4rem 4rem;
+    font-size: 6rem;
+  }
+
+  ul {
+    li {
+      padding: 1rem;
+    }
+  }
 
   @media screen and (max-width: 1100px) {
   }

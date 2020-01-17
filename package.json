@@ -13,7 +13,6 @@
     "start": " yarn clean && yarn develop",
     "serve": "gatsby serve",
     "type-check": "tsc --noEmit",
-    "mdx": "mdx-deck ./decks/slides.mdx",
     "print": "yarn website-pdf http://localhost:8000/slides/print -w 960 -h 600 -o slides.pdf"
   },
   "dependencies": {
