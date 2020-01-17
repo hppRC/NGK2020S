@@ -15,7 +15,7 @@ module.exports = {
     {
       resolve: `gatsby-theme-mdx-deck`,
       options: {
-        mdx: true,
+        mdx: false,
         //you shouldn't use back quote!(ex. `decks`).
         contentPath: 'decks',
         basePath: ''

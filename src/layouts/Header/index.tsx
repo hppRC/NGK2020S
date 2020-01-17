@@ -5,8 +5,9 @@ import styled from '@emotion/styled';
 
 const Header: React.FCX = ({ className }) => (
   <header className={className}>
-    <h1>NGK2020S</h1>
-
+    <h1>
+      <Link to='/'> NGK2020S</Link>
+    </h1>
     <nav>
       <ul>
         <li>
@@ -24,16 +25,26 @@ export const StyledHeader = styled(Header)`
 
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 100vw;
+  padding: 1rem;
+
+  h1 {
+    a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+  }
 
   nav {
-    padding: 2rem;
+    padding-top: 2rem;
     ul {
       display: flex;
       justify-content: center;
       list-style: none;
       li {
         a {
+          text-decoration: none;
+          color: #ffffff;
           padding: 2rem;
         }
       }

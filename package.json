@@ -7,12 +7,14 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "clean": "gatsby clean",
     "develop": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx,tsx}",
-    "start": "yarn develop",
+    "start": " yarn clean && yarn develop",
     "serve": "gatsby serve",
     "type-check": "tsc --noEmit",
-    "mdx": "mdx-deck ./decks/slides.mdx"
+    "mdx": "mdx-deck ./decks/slides.mdx",
+    "print": "yarn website-pdf http://localhost:8000/slides/print -w 960 -h 600 -o slides.pdf"
   },
   "dependencies": {
     "@babel/core": "^7.7.4",
@@ -60,6 +62,6 @@
     "webpack": "^4.41.2"
   },
   "devDependencies": {
-    "website-pdf": "3.0.8"
+    "website-pdf": "^3.0.8"
   }
 }
