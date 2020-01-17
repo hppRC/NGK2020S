@@ -1,9 +1,15 @@
 import React from 'react';
+import { SEO } from 'src/components';
 
 import styled from '@emotion/styled';
 
 const SlideLayout: React.FCX = ({ className, children }) => {
-  return <main className={className}>{children}</main>;
+  return (
+    <main className={className}>
+      <SEO title='slides' pathname={'/slides'} />
+      {children}
+    </main>
+  );
 };
 
 export const StyledSlideLayout = styled(SlideLayout)`
@@ -20,12 +26,18 @@ export const StyledSlideLayout = styled(SlideLayout)`
   }
   h2 {
     padding: 2rem 4rem 4rem 4rem;
-    font-size: 6rem;
+    font-size: 8rem;
+  }
+
+  p {
+    font-size: 5rem;
   }
 
   ul {
+    padding: 1rem 0;
     li {
       padding: 1rem;
+      font-size: 5rem;
     }
   }
 
