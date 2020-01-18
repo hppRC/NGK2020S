@@ -4,14 +4,14 @@
 
 LT 登壇用の資料
 
-mdx-deck でスライドを作りつつ、Gatsby で公開してみる
+mdx-deck でスライドを作りつつ、Gatsby で公開してみる。
 
-ライブラリが非常に buggy なので苦労する。
+ライブラリが非常に buggy なので苦労する。神は死んだ。
 
 ## PDF export
 
 ```
-npx website-pdf http://localhost:8000/hello/print -o output.pdf
+yarn print
 ```
 
 信じられないが dummy のファイルが decks ディレクトリに無いとうまく動かない。信じられない。  

@@ -13,7 +13,7 @@
     "start": " yarn clean && yarn develop",
     "serve": "gatsby serve",
     "type-check": "tsc --noEmit",
-    "print": "yarn website-pdf http://localhost:8000/slides/print -w 1920 -h 1200 -o slides.pdf"
+    "print": "yarn website-pdf http://localhost:8000/slides/print -w 1920 -h 1080 -o slides.pdf"
   },
   "dependencies": {
     "@babel/core": "^7.7.4",
