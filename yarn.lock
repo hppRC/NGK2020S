@@ -14377,13 +14377,13 @@ webpack@^4.41.2, webpack@~4.41.2:
     watchpack "^1.6.0"
     webpack-sources "^1.4.1"
 
-website-pdf@3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/website-pdf/-/website-pdf-3.1.0.tgz#d033ca4702ab63dfe57091883289d648be4da7d4"
-  integrity sha512-MQOFSQxaf05VkOswxjPr1XAU7Vjts++rLSjQCErmjPI/9DwqRe3RLhJTP95Zu8I8hK5bq3RMrHF+nhqZfEJKSw==
+website-pdf@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/website-pdf/-/website-pdf-4.0.0.tgz#4f183a5b126ce935ad23dbd8ddb2bf35e969c874"
+  integrity sha512-W/NS+ULKEV9e80lTbdibnMzTCnr6Pe2d5MBbTAci3Lha7IPXEcbwckHmydLE24VPrtojdnNvQbwJgV/Puc2Ljw==
   dependencies:
-    meow "^5.0.0"
-    mkdirp "^0.5.1"
+    meow "^6.0.0"
+    mkdirp "^1.0.3"
     puppeteer "^2.0.0"
 
 websocket-driver@>=0.5.1:
