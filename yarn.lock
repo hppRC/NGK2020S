@@ -6401,10 +6401,10 @@ gatsby-remark-import-code@^0.1.1:
     shell-quote "^1.6.1"
     unist-util-visit "^1.4.1"
 
-gatsby-remark-relative-images@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-relative-images/-/gatsby-remark-relative-images-0.2.3.tgz#35e0a2a3f37e54aa8e305ff178edda95ec227df7"
-  integrity sha512-pxvFgCUfJrQ/ezwSpvdzrvJGyESleGsUetHXyQ7ybNlMxQvkrK6GYjit5nkuk6x+2UEiOhIBgkBEpaZ9xZCLpQ==
+gatsby-remark-relative-images@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-relative-images/-/gatsby-remark-relative-images-0.3.0.tgz#6e31b0045d943ae1822ced469ce3b39b772e8ee4"
+  integrity sha512-DvFJiuqV/2I92OvKfVRQl0KxyOEE3zI/ALbxHFXHwCMzz+Pkd/HzmSyTLVyq9iBogzTQB+OpzDtgrTAtQwddzg==
   dependencies:
     babel-polyfill "^6.26.0"
     cheerio "^1.0.0-rc.3"
@@ -7018,6 +7018,11 @@ graphql@^14.5.8:
   integrity sha512-MMwmi0zlVLQKLdGiMfWkgQD7dY/TUKt4L+zgJ/aR0Howebod3aNgP5JkgvAULiR2HPVZaP2VEElqtdidHweLkg==
   dependencies:
     iterall "^1.2.2"
+
+graphql@^15.0.0:
+  version "15.0.0"
+  resolved "https://registry.yarnpkg.com/graphql/-/graphql-15.0.0.tgz#042a5eb5e2506a2e2111ce41eb446a8e570b8be9"
+  integrity sha512-ZyVO1xIF9F+4cxfkdhOJINM+51B06Friuv4M66W7HzUOeFd+vNzUn4vtswYINPi6sysjf1M2Ri/rwZALqgwbaQ==
 
 gray-matter@^4.0.2:
   version "4.0.2"
@@ -14377,10 +14382,10 @@ webpack@^4.41.2, webpack@~4.41.2:
     watchpack "^1.6.0"
     webpack-sources "^1.4.1"
 
-website-pdf@4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/website-pdf/-/website-pdf-4.0.0.tgz#4f183a5b126ce935ad23dbd8ddb2bf35e969c874"
-  integrity sha512-W/NS+ULKEV9e80lTbdibnMzTCnr6Pe2d5MBbTAci3Lha7IPXEcbwckHmydLE24VPrtojdnNvQbwJgV/Puc2Ljw==
+website-pdf@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/website-pdf/-/website-pdf-4.1.0.tgz#93b233f29e470afe6cfe3ee4e11b33307cd06d76"
+  integrity sha512-y3+9Uq9TYZ4ebKxs/RCRh4ZRmLrIQCbi9YQ+dv2KZ5HMNyOWzWsnGPx7G/cG2rKlEefB9wzpw/0TgHNtDVE3bg==
   dependencies:
     meow "^6.0.0"
     mkdirp "^1.0.3"
