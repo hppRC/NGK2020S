@@ -56,7 +56,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
-    "typescript": "^3.8.0-beta",
+    "typescript": "^4.0.0",
     "unstated-next": "^1.1.0",
     "webpack": "^4.41.2"
   },
