@@ -58,7 +58,7 @@
     "react-helmet": "^5.2.1",
     "typescript": "^3.8.0-beta",
     "unstated-next": "^1.1.0",
-    "webpack": "^4.41.2"
+    "webpack": "^5.0.0"
   },
   "devDependencies": {
     "website-pdf": "4.1.0"
